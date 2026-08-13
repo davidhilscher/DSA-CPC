@@ -10,8 +10,6 @@ Structure
 - Problems are grouped by algorithmic pattern (sliding window, hashmap, etc.)
 - Each file contains a clean solution with comments
 
-Goals
-- Build DSA muscle memory
-- Prepare for SWE / backend interviews
-- Improve problem-solving speed / pattern recognition
+# restarted on 8/12 after 50 LC solved in C++ in summer 2026
+# switching back to Python to code faster
 
