@@ -10,6 +10,5 @@ def twoSum(nums, target):
         seen[n] = i
             
 
-
 if __name__ == '__main__':
     print(twoSum([4, 5, 6, 3], 7))
