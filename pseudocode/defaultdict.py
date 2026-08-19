@@ -26,3 +26,30 @@ seen['users'].add('adam')
 seen['users'].add(20)
 
 print(seen) # defaultdict(<class 'set'>, {'users': {20, 'adam', 'vela'}})
+
+# extra prac
+
+animals = defaultdict(int)
+animals['cow'] += 1
+animals['fish'] += 1
+animals['cow'] += 1
+animals['cow'] += 1
+
+print(animals['cow']) # 3
+
+gs = defaultdict(list)
+
+gs['employees'].append('li')
+gs['employees'].append('wang')
+gs['employees'].append('zhang')
+gs['employees'].append('wei')
+gs['employees'].append('chang')
+gs['employees'].append('qi')
+gs['employees'].append('xi')
+gs['employees'].append('ni')
+
+gs['roles'].append('SWE')
+gs['roles'].append('Data')
+gs['roles'].append('PM')
+
+print(gs['employees'])
